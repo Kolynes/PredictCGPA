@@ -1,0 +1,11 @@
+#:kivy 1.0
+
+<SettingsScreen>:
+    name: "settings"
+    MDBoxLayout:
+        orientation: "vertical"
+        MDLabel:
+            text: "settings"
+        Button:
+            text: "change screen"
+            on_press: app.router.pop()
